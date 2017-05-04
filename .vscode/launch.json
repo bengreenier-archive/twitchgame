@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceRoot}\\cli.js",
+            "args": [
+                "timthetatman:battlegrounds"
+            ],
+            "env": {
+                "TWITCH_ID": "4han9oagtcwp5sjehvy8n0ob7feqfm",
+                "TWITCH_CLIENT_SECRET": "16fzmf9yem6vvuivqn3cfh1rsnn8ii"
+            }
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Attach to Port",
+            "address": "localhost",
+            "port": 5858
+        }
+    ]
+}

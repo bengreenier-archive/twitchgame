@@ -1,0 +1,20 @@
+{
+  "name": "twitchgame",
+  "version": "0.1.0",
+  "description": "(t)which game are you playing",
+  "main": "cli.js",
+  "dependencies": {
+    "lru-cache": "^4.0.2",
+    "node-notifier": "^5.1.2",
+    "open": "0.0.5",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0",
+    "yargs": "^8.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Greenier",
+  "license": "MIT"
+}
